@@ -31,9 +31,9 @@ AstrBot/data/plugins/astrbot_plugin_ai_image/
 
 | 配置项 | 说明 | 默认值 |
 |--------|------|--------|
-| `api_url` | API 服务地址 | `http://183.136.204.135:13000/v1/chat/completions` |
-| `api_key` | API 密钥 | `a2678845` |
-| `proxy_url` | 代理服务器地址（用于下载外网图片） | `http://192.168.100.2:7890` |
+| `api_url` | API 服务地址 | `http://localhost:8000/v1/chat/completions` |
+| `api_key` | API 密钥 | `password` |
+| `proxy_url` | 代理服务器地址（用于下载外网图片） | `http://ip:port` |
 | `default_model` | 默认模型 | `gemini-3.0-pro-image-portrait` |
 | `request_timeout` | 请求超时时间（秒） | `120` |
 | `max_retry_attempts` | 最大重试次数 | `3` |

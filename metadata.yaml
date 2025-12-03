@@ -1,0 +1,6 @@
+name: astrbot_plugin_ai_image
+desc: AI生图插件 - 基于OpenAI兼容接口的文生图/图生图功能，自动检测图片模式
+version: v1.0.0
+author: XuXuan
+repo: ""
+

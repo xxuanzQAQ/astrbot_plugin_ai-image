@@ -1,0 +1,45 @@
+{
+  "api_url": {
+    "description": "API 服务地址",
+    "type": "string",
+    "hint": "OpenAI兼容的API地址，例如：http://localhost:8000/v1/chat/completions",
+    "default": "http://localhost:8000/v1/chat/completions",
+    "obvious_hint": true
+  },
+  "api_key": {
+    "description": "API 密钥",
+    "type": "string",
+    "hint": "API访问密钥",
+    "default": "a2678845",
+    "obvious_hint": true
+  },
+  "proxy_url": {
+    "description": "代理服务器地址",
+    "type": "string",
+    "hint": "用于下载外网资源（如Google Cloud Storage图片）的HTTP代理地址，内网地址和QQ域名会自动直连",
+    "default": "http://192.168.100.2:7890",
+    "obvious_hint": true
+  },
+  "default_model": {
+    "description": "默认模型",
+    "type": "string",
+    "hint": "默认使用的生图模型，可选：gemini-2.5-flash-image-portrait, gemini-2.5-flash-image-landscape, gemini-3.0-pro-image-portrait, gemini-3.0-pro-image-landscape, imagen-4.0-generate-preview-portrait, imagen-4.0-generate-preview-landscape",
+    "default": "gemini-3.0-pro-image-portrait",
+    "obvious_hint": true
+  },
+  "request_timeout": {
+    "description": "请求超时时间（秒）",
+    "type": "int",
+    "hint": "API请求的超时时间，建议设置为120秒以上",
+    "default": 120,
+    "obvious_hint": false
+  },
+  "max_retry_attempts": {
+    "description": "最大重试次数",
+    "type": "int",
+    "hint": "请求失败时的最大重试次数",
+    "default": 3,
+    "obvious_hint": false
+  }
+}
+
